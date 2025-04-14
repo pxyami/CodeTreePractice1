@@ -9,7 +9,7 @@ int main() {
     cin >> arrsize;
     for (int i = 0; i < arrsize; i++) cin >> arr[i];
 
-    for (int i = 0; i < arrsize; i++)
+    for (int i = 0; i < arrsize-1; i++)
     {
         int minindex = 0;
         int min = 100;
