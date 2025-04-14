@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 int arrsize;
@@ -15,7 +14,7 @@ int main() {
         int min = 100;
         for (int ii = i; ii < arrsize; ii++)
         {
-            if (min > arr[ii])
+            if (min >= arr[ii])
             {
                 min = arr[ii];
                 minindex = ii;
