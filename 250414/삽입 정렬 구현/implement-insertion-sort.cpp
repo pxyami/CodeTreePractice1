@@ -11,9 +11,9 @@ int main()
 
 	for (int i = 0; i < arrsize - 1; i++)
 	{
-		if (arr[i] < arr[i + 1])
+		if (arr[i] > arr[i + 1])
 		{
-			int ii = i;
+			int ii = i+1;
 			while (ii - 1 >= 0 && arr[ii - 1] > arr[ii])
 			{
 				int temp = arr[ii - 1];
