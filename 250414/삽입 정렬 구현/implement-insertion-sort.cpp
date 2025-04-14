@@ -14,13 +14,13 @@ int main()
 		if (arr[i] < arr[i + 1])
 		{
 			int ii = i;
-			do
+			while (ii - 1 >= 0 && arr[ii - 1] > arr[ii])
 			{
 				int temp = arr[ii - 1];
 				arr[ii - 1] = arr[ii];
 				arr[ii] = temp;
 				ii--;
-			} while (ii - 1 >= 0 && arr[ii - 1] > arr[ii]);
+			}
 		}
 	}
 
